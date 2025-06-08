@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.topo {
+    background-color: #250453;
+    width: 100vw;
+    text-align: center;
+    padding: 5px;
+}
+
+.box-titulo h1 {
+    font-size: 40px;
+    font-weight: 400;
+    color: #FFFFFF;
+    background-color: #250453;
+}
+
+.box-titulo{
+    position: relative;
+    padding: 25px;
+    margin: 0 auto;
+    max-width: calc(50% - 400px);
+    min-width: 350px;
+
+    
+}
+
+.box-titulo img{
+    position: absolute;
+    top: 25px;
+    left: -30px;
+    width: 80px;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.menu a {
+    font-size: 18px;
+    color: #f4f0e5;
+
+}
+
+.image-topo {
+    background-image: url("/sorveteria/imgs/Figura1_Exemplo-pratico.jpg");
+    height: 50vh;
+    background-size: cover;
+    background-position: top;
+}
+
+.box-sobre {
+    border: 2px solid #bebebe;
+    width: calc(100% - 40px);
+    margin: 50px auto;
+    text-align: center;
+    padding: 10px;
+    max-width: 2000px;
+    min-width: 100px;
+}
+
+h2 {
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+
+p {
+    padding: 5px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.conteudo {
+    border: 2px solid #bebebe;
+    width: calc(100% - 40px);
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px;
+    white-space: nowrap;
+}
+
+.conteudo p {
+    padding: 5px;
+    font-size: 15px;
+    white-space: normal;
+}
+
+.container-imgs {
+    display: inline-block;
+    text-align: left;
+    margin: 10px auto;
+    overflow: auto;
+}
+
+.container-imgs img {
+    width: 30%;
+    margin: 0 10px;
+}
+
+.container-contato {
+    border: 2px solid #bebebe;
+    width: calc(100% - 40px);
+    margin: 50px auto;
+    text-align: center;
+    padding: 5px;
+    white-space: nowrap;
+}
+
+.subcontainer-contato {
+    white-space: normal;
+    width: 50%;
+    margin: 0 auto;
+    padding: 15px;
+    min-width: 300px;
+}
+
+
+.subcontainer-contato a{
+    padding: 3px;
+    font-size: 18px;
+    padding: 5px;
+    color: #d19f6e;
+    
+}
+
+.box-links{
+    margin: 10px auto;
+    width: 50%;
+    min-width: 300px;
+}
+
+
+
+
+
+/* estilo rolagem da pagina */
+/* Chrome, Edge and Safari */
+*::-webkit-scrollbar {
+  height: 4px;
+  width: 4px;
+}
+*::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background-color: #DFE9EB;
+  border: 3px solid #FFFFFF;
+}
+
+*::-webkit-scrollbar-track:hover {
+  background-color: #B8C0C2;
+}
+
+*::-webkit-scrollbar-track:active {
+  background-color: #B8C0C2;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: #BEBEBE;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #A31B8C;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background-color: #62A34B;
+}
