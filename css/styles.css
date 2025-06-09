@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -9,18 +10,33 @@ body {
 
 .topo {
     background-color: #250453;
+    width: 100vw;
     text-align: center;
     padding: 5px;
 }
 
-.topo h1 {
+.box-titulo h1 {
     font-size: 40px;
     font-weight: 400;
     color: #FFFFFF;
+    background-color: #250453;
 }
 
-.topo img{
-    width: 128px;
+.box-titulo{
+    position: relative;
+    padding: 25px;
+    margin: 0 auto;
+    max-width: calc(50% - 400px);
+    min-width: 350px;
+
+    
+}
+
+.box-titulo img{
+    position: absolute;
+    top: 25px;
+    left: -30px;
+    width: 80px;
 }
 
 .menu li {
@@ -104,6 +120,7 @@ p {
     width: 50%;
     margin: 0 auto;
     padding: 15px;
+    min-width: 300px;
 }
 
 
@@ -112,6 +129,13 @@ p {
     font-size: 18px;
     padding: 5px;
     color: #d19f6e;
+    
+}
+
+.box-links{
+    margin: 10px auto;
+    width: 50%;
+    min-width: 300px;
 }
 
 
